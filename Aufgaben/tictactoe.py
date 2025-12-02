@@ -1,3 +1,4 @@
+counter = 1
 playerX = True
 field = []
 for i in range(10):
@@ -40,6 +41,10 @@ while not winCon():
     print_field()
     nextMove(playerX)
     playerX = not playerX
+    counter += 1
+    if counter > 9:
+        print("It's a draw!")
+        break
 
 if winCon() == True:
     print_field()
