@@ -2,4 +2,4 @@
 
 dec = int(input("Enter a decimal number: "))
 hex = hex(dec)
-print(f"The hexadecimal representation of {dec} is {hex}")
+print("The hexadecimal representation of " + str(dec) + " is " + hex)
