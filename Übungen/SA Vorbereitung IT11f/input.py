@@ -10,5 +10,5 @@ def rechner():
     return summe
 
 
-summe = rechner()
-print("Die Summe der eingegebenen Zahlen ist:", summe)
+ausgabe = rechner()
+print("Die Summe der eingegebenen Zahlen ist:", ausgabe)
