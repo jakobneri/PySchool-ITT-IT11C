@@ -8,3 +8,5 @@ def greetings(name, vorname, akademisch=""):
     print("Goodbye!")
 
 greetings(name, vorname, akademisch)
+print("")
+greetings(name, vorname)
