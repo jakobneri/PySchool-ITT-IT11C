@@ -16,8 +16,12 @@ class konto():
     def anzeigen(self):
         return self.kontostand
     
+    def ausgeben(self):
+        print(self.kontostand)     
+    
 konto1 = konto("Alice", "DE1234567890", 1000)
 print(konto1.anzeigen())
+konto1.ausgeben()
 konto1.einzahlen(500)
 print(konto1.anzeigen())
 konto1.abheben(300)
